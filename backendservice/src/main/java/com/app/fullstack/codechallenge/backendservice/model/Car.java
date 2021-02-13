@@ -14,15 +14,13 @@ import javax.persistence.Id;
 public class Car {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long Id;
     private String name;
-    private String milesPerGallon;
-    private String cylinders;
-    private String displacement;
-    private String horsePower;
-    private String price;
-    private String acceleration;
+    private Long milesPerGallon;
+    private Long cylinders;
+    private Long displacement;
+    private Long horsePower;
+    private Long price;
+    private Long acceleration;
     private Boolean licensed;
     private String dateAdded;
     private String warehouse;

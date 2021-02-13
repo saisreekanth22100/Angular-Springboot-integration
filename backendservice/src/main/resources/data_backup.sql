@@ -1,0 +1,16 @@
+insert into Car values('chevrolet chevelle malibu',18,8,307,130,3504,12,false,'1970-01-01','USA');
+insert into Car values('plymouth volare custom',19,6,225,100,3630,17.7,false,'1977-01-01','USA');
+insert into Car values('ford granada',18.5,6,250,98,3525,19,false,'1977-01-01','USA');
+insert into Car values('pontiac grand prix lj',16,8,400,180,4220,11.1,false,'1977-01-01','USA');
+insert into Car values('chevrolet monte carlo landau',15.5,8,350,170,4165,11.4,false,'1977-01-01','USA');
+insert into Car values('buick skylark 320',15,8,350,165,3693,11.5,true,'1970-01-01','USA');
+insert into Car values('plymouth satellite',18,8,318,150,3436,11,true,'1970-01-01','USA');
+insert into Car values('amc rebel sst',16,8,304,150,3433,12,true,'1970-01-01','USA');
+insert into Car values('ford torino',17,8,302,140,3449,110.5,true,'1970-01-01','USA');
+insert into Car values('ford galaxie 500',15,8,429,198,4341,10,true,'1970-01-01','USA');
+insert into Car values('chevrolet impala',14,8,454,220,4354,9,true,'1970-01-01','USA');
+insert into Car values('plymouth fury iii',14,8,440,215,4312,8.5,true,'1970-01-01','USA');
+insert into Car values('pontiac catalina',14,8,455,225,4425,10,true,'1970-01-01','USA');
+insert into Car values('dodge rampage',32,4,135,84,2295,11.6,false,'1982-01-01','USA');
+insert into Car values('ford ranger',28,4,120,79,2625,18.6,false,'1982-01-01','USA');
+insert into Car values('chevy s-10',31,4,119,82,2720,19.4,false,'1982-01-01','USA');
