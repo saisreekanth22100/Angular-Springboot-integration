@@ -1,6 +1,6 @@
 <p>car-list works!</p>
 
 <p *ngFor="let tempCar of cars">
-  {{tempCar.name}}:{{tempCar.price}}:{{tempCar.licensed}}:{{tempCar.dateAdded}}
+  {{tempCar.name}}:{{tempCar.price}}:{{tempCar.licensed}}:<a routerLink="/car-details"><div> {{tempCar.dateAdded}} </div> </a>
 
 </p>
