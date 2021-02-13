@@ -1,6 +1,41 @@
 <p>car-list works!</p>
 
+<!--
 <p *ngFor="let tempCar of cars">
   {{tempCar.name}}:{{tempCar.price}}:{{tempCar.licensed}}:<a routerLink="/car-details"><div> {{tempCar.dateAdded}} </div> </a>
 
 </p>
+  -->
+
+
+<div class="main-content">
+  <div class="section-content section-content-p30">
+    <div class="container-fluid">
+
+      <table class="table table-bordered">
+        <tr>
+          <th width="20%">Name</th>
+          <th width="30%">Price</th>
+          <th width="20%">Licensed</th>
+          <th width="30%">Date Added</th>
+        </tr>
+
+        <tr *ngFor="let tempCar of cars">
+          <td>
+            <p>{{ tempCar.name }}</p>
+          </td>
+          <td>
+            <p>{{ tempCar.price }}</p>
+          </td>
+          <td>
+            <p>{{ tempCar.licensed }}</p>
+          </td>
+          <td>
+            <a routerLink="/car-details"><div><p> {{tempCar.dateAdded}} </p></div> </a>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+  </div>
+</div>
